@@ -4,12 +4,9 @@
     "description": "Team Task Manager Backend API",
     "main": "server.js",
     "scripts": {
-        "build": "cd frontend && npm install && npm run build",
-        "start": "cd backend && node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-        "@vitejs/plugin-react": "^6.0.2",
-        "axios": "^1.16.1",
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
         "dotenv": "^16.4.5",
@@ -17,13 +14,9 @@
         "express-validator": "^7.2.0",
         "jsonwebtoken": "^9.0.2",
         "mongoose": "^8.7.0",
-        "morgan": "^1.10.0",
-        "react": "^19.2.6",
-        "react-dom": "^19.2.6",
-        "react-router-dom": "^7.15.1"
+        "morgan": "^1.10.0"
     },
     "devDependencies": {
-        "nodemon": "^3.1.7",
-        "vite": "^8.0.13"
+        "nodemon": "^3.1.7"
     }
 }
