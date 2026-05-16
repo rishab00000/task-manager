@@ -128,6 +128,10 @@ The backend will serve the built frontend from `frontend/dist/`.
 
 ## Deployment (Railway)
 
+### One-click deploy
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template)
+
 ### Manual deployment
 
 1. Push to GitHub
