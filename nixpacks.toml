@@ -1,0 +1,8 @@
+[phases]
+  install = { cmds = ["npm run install:all"] }
+  setup = { cmds = [] }
+  build = { cmds = ["npm run build:frontend"] }
+  start = { cmd = "npm run start:backend" }
+
+[start]
+  cmd = "node backend/server.js"
